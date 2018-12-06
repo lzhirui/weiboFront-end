@@ -1,22 +1,15 @@
 import React, { Component } from 'react';
-
-import {homedata} from '../api/home';
-
+import Swiper from './swiper'
+import Indexcontent from './content'
+import './index.scss'
 class Home extends Component {
-    newslistclick = () => {
-        homedata().then(res=>{
-            console.log(res);
-        })
-    }
     render() {
         return (
-            <div className="Home">
-                <div>
-                    <button onClick={this.newslistclick.bind()}>456</button>
-                </div>
+            <div className="Home content">
+                <Swiper/>
+                <Indexcontent/>
             </div>
         );
     }
 }
-
-export default Home;
+export default Home

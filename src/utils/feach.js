@@ -1,7 +1,14 @@
 import axios from 'axios'
 import qs from 'qs';
 
-let baseURL = 'http://myweibo.37bigboom.cn';
+let baseURL = '';
+
+if(process.env.NODE_ENV == 'development'){
+    baseURL = 'http://myweibo.37bigboom.cn';
+}else{
+    baseURL = 'http://myweibo.37bigboom.cn/api';
+}
+
 
 const service = axios.create({
     baseURL: baseURL, // api的base_url
