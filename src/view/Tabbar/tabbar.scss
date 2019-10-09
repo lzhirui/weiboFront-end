@@ -1,0 +1,22 @@
+.Tabbar{
+  width: 100%;
+  padding:0 10%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  background: #fff;
+  height: 50px;
+  line-height: 50px;
+  ul{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    li{
+      list-style-type: none;
+      a{
+        color: #000;
+        text-decoration: none;
+      }
+    }
+  }
+}

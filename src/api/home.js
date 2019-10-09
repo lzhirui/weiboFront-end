@@ -2,7 +2,7 @@ import feach from '../utils/feach'
 
 export function homedata() {
     return feach({
-        url:'/homepage',
+        url:'/index/user/get',
         method:'get'
     })
 }

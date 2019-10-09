@@ -4,6 +4,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(http://demo.cssmoban.com/cssthemes3/mbts_30_Wopop/Wopop_files/login_bgx.gif);
 }
 
 * {
@@ -12,4 +13,9 @@ body {
 }
 .content{
   margin-top: 50px;
+}
+.contentClass{
+  width: 1050px;
+  margin: auto;
+  margin: 0 auto;
 }

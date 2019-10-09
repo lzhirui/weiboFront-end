@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.bottom .sigma-content {
+  margin: 10px 0;
+  text-align: center;
+  background-color: #fff; }
+
+.bottom .sigma-middle-line:before {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #999;
+  /*颜色需与主题大背景色一致*/
+  position: relative;
+  top: 10px;
+  /*调节线高*/
+  left: 0; }
+
+.bottom .sigma-line-text {
+  display: inline-block;
+  background: #fff;
+  padding: 0 30px;
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  color: darkcyan; }

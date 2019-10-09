@@ -1,9 +1,0 @@
-.indexContent {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  flex-wrap: wrap; }
-  .indexContent div {
-    display: flex;
-    justify-content: center;
-    align-content: center; }
